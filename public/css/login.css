@@ -1,0 +1,51 @@
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+
+.loginContainer {
+  background-color: #d3d3d3;
+  width: 40vw;
+  height: 20vw;
+  padding-top: 25px;
+  padding-left: 25px;
+  margin: 10%;
+}
+
+.title {
+  align-items: center;
+  font-size: 2rem;
+  padding: 15px;
+}
+
+.loginContainer_username {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.loginContainer_username input {
+  margin-left: 48px;
+  line-height: 1.5rem;
+  border-width: 2px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.loginContainer_password {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.loginContainer_password input {
+  margin-left: 14px;
+  line-height: 1.5rem;
+  border-width: 2px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.loginContainer button {
+  font-size: 1rem;
+  padding: 10px;
+  margin-left: 15px;
+}

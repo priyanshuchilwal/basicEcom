@@ -1,0 +1,39 @@
+<%- include("../partials/header.ejs"); %>
+<div class="signupContainer">
+  <div class="title">SIGN UP</div>
+  <form action="/auth/signup" method="post">
+    <div class="firstname">
+      <label for="firstname"
+        >Firstname:
+        <input type="text" id="firstname" name="firstname" />
+      </label>
+    </div>
+    <div class="lastname">
+      <label for="lastname"
+        >Lastname:
+        <input type="text" id="lastname" name="lastname" />
+      </label>
+    </div>
+    <div class="email">
+      <label for="email"
+        >Email:
+        <input type="email" id="email" name="email" />
+      </label>
+    </div>
+    <div class="password">
+      <label for="password"
+        >Password:
+        <input type="text" id="password" name="password" />
+      </label>
+    </div>
+    <div class="confirmPassword">
+      <label for="confirmPassword"
+        >Confirm Password:
+        <input type="text" id="confirmPassword" name="confirmPassword" />
+      </label>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<%- include("../partials/footer.ejs"); %>
